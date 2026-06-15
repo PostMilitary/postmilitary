@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PostMilitary</title>
+  <style>
+    :root {
+      --navy:#0b2f5f;
+      --red:#a40000;
+      --ink:#101828;
+      --muted:#667085;
+      --line:#e5e7eb;
+      --bg:#ffffff;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.5;
+    }
+    .page {
+      max-width:1040px;
+      margin:0 auto;
+      padding:48px 28px 36px;
+    }
+    .brand {
+      font-size:42px;
+      font-weight:800;
+      letter-spacing:-1px;
+      color:var(--navy);
+      margin-bottom:42px;
+    }
+    .brand span {
+      color:white;
+      background:var(--red);
+      padding:4px 12px 5px;
+      margin-left:6px;
+    }
+    .hero {
+      border-bottom:1px solid var(--line);
+      padding-bottom:34px;
+      margin-bottom:34px;
+    }
+    h1 {
+      font-size:52px;
+      line-height:1.05;
+      letter-spacing:-2px;
+      margin:0 0 18px;
+      color:var(--navy);
+      max-width:850px;
+    }
+    .subhead {
+      font-size:21px;
+      color:var(--muted);
+      max-width:780px;
+      margin:0;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:34px;
+      margin-bottom:34px;
+      border-bottom:1px solid var(--line);
+      padding-bottom:34px;
+    }
+    h2 {
+      color:var(--red);
+      font-size:18px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      margin:0 0 12px;
+    }
+    p { margin:0 0 14px; }
+    ul {
+      margin:14px 0 0;
+      padding-left:20px;
+    }
+    li { margin:7px 0; }
+    .statement {
+      font-size:22px;
+      font-weight:700;
+      color:var(--navy);
+      margin-top:18px;
+    }
+    .statement strong { color:var(--red); }
+    .fiveps {
+      display:grid;
+      grid-template-columns:repeat(5, 1fr);
+      gap:14px;
+      margin-top:18px;
+    }
+    .card {
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:16px;
+      min-height:120px;
+    }
+    .card h3 {
+      margin:0 0 8px;
+      font-size:15px;
+      color:var(--navy);
+      text-transform:uppercase;
+      letter-spacing:.04em;
+    }
+    .card p {
+      font-size:14px;
+      color:var(--muted);
+      margin:0;
+    }
+    .building {
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:20px;
+      margin-top:18px;
+    }
+    .footer {
+      margin-top:34px;
+      padding-top:28px;
+      border-top:1px solid var(--line);
+      text-align:center;
+    }
+    .tagline {
+      font-size:28px;
+      font-weight:800;
+      color:var(--navy);
+      line-height:1.25;
+      margin-bottom:16px;
+    }
+    .tagline span { color:var(--red); }
+    .url {
+      color:var(--muted);
+      font-weight:700;
+      letter-spacing:.04em;
+    }
+    @media (max-width:800px) {
+      .page { padding:32px 20px; }
+      .brand { font-size:32px; }
+      h1 { font-size:38px; }
+      .grid, .building { grid-template-columns:1fr; }
+      .fiveps { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="brand">Post<span>Military</span></div>
+
+    <section class="hero">
+      <h1>Building the Intelligence Layer for Military Transition</h1>
+      <p class="subhead">A new approach to helping veterans and military-connected individuals define success for themselves and navigate life after military service.</p>
+    </section>
+
+    <section class="grid">
+      <div>
+        <h2>The Challenge</h2>
+        <p><strong>Today's transition resources are fragmented.</strong></p>
+        <p>Veterans are often presented with thousands of articles, organizations, benefits, and programs, but little guidance on:</p>
+        <ul>
+          <li>Where to begin</li>
+          <li>What matters most to them</li>
+          <li>Which resources fit their unique situation</li>
+          <li>How to confidently move forward</li>
+        </ul>
+        <p class="statement">Most organizations provide information.<br><strong>PostMilitary provides reasoning.</strong></p>
+      </div>
+
+      <div>
+        <h2>Our Philosophy</h2>
+        <p>Before people can intentionally build a successful life, they must first intentionally define what success means for themselves.</p>
+        <p>We guide people through that journey using the Five Ps.</p>
+
+        <div class="fiveps">
+          <div class="card"><h3>People</h3><p>Relationships, community, and belonging.</p></div>
+          <div class="card"><h3>Purpose</h3><p>Meaning, mission, and direction.</p></div>
+          <div class="card"><h3>Principles</h3><p>Values, integrity, and decision-making.</p></div>
+          <div class="card"><h3>Prosperity</h3><p>Financial stability and career well-being.</p></div>
+          <div class="card"><h3>Peace</h3><p>Health, balance, and peace of mind.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What We're Building</h2>
+      <div class="building">
+        <div class="card">
+          <h3>Knowledge Layer</h3>
+          <p>Trusted, connected knowledge organized for intelligent guidance.</p>
+        </div>
+        <div class="card">
+          <h3>Intelligence Layer</h3>
+          <p>Reasoning that understands context and delivers personalized recommendations.</p>
+        </div>
+        <div class="card">
+          <h3>Thinking Partner</h3>
+          <p>An experience that helps people think clearly, make informed decisions, and confidently move forward.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="tagline">Helping people define success.<br><span>Guiding them toward it.</span></div>
+      <div class="url">postmilitary.com</div>
+    </footer>
+  </main>
+</body>
+</html>
