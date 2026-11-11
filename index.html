@@ -49,7 +49,7 @@
     .subhead {
       font-size:21px;
       color:var(--muted);
-      max-width:780px;
+      max-width:100%;
       margin:0;
     }
     .grid {
@@ -136,6 +136,26 @@
       .grid, .building { grid-template-columns:1fr; }
       .fiveps { grid-template-columns:1fr; }
     }
+    /* Separate The Challenge from Our Philosophy */
+.grid > div + div {
+  border-top:1px solid var(--line);
+  padding-top:34px;
+}
+
+/* Give the key statement more breathing room */
+.statement {
+  margin-top:30px;
+}
+
+/* Add breathing room inside the bottom cards */
+.building .card {
+  padding:22px;
+}
+
+.building .card p {
+  font-size:15px;
+  line-height:1.6;
+}
   </style>
 </head>
 <body>
